@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title="strona logowania"
+        style
+            include style.css
+    body
+        div.form
+            form(action='http://localhost:3000/first-template', method='GET')
+                h1 Zaloguj się przez Google
+                p Your nickname
+                input(type="text")/
+                p Your password
+                input(type="password")/
+                a(href="gallery_template.pug") SEND
