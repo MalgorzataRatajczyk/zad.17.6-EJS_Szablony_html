@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    background-color: #777;
+}
+.gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.image {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    display:flex;
+    flex-flow: column;
+}
+
+.image:hover {
+    border: 1px solid #777;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image .desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
