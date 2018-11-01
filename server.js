@@ -4,7 +4,7 @@ var app = express();
 app.set('view engine', 'pug');
 app.set('views','./views');
 
-app.use(express.static('views'));
+app.use(express.static('views public'));
 
 app.get('/first-template', function(req, res){
     res.render('first-template');
